@@ -1,0 +1,67 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+label:not(.radio-label) {
+    display: block;
+    font-weight: 700;
+    margin: 10px 0 5px;
+    font-size: 0.8em;
+}
+input, select, button {
+    border: 1px solid #ccc;
+    background: #fafafa;
+    color: #737373;
+    padding: 6px;
+}
+button {
+    display: block;
+    margin: 15px 0;
+}
+input:not([type="radio"]), textarea {
+    width: 30%;
+}
+form small {
+    display: block;
+    font-size: 0.7em;
+    margin-top: 3px;
+}
+.welcome {
+    font-size: 1.8em;
+    text-align: center;
+}
+#lang {
+    display: flex;
+    justify-content: flex-end;
+}
+.form-switcher {
+    font-size: 1.2em;
+}
+.form-switcher:not(.active) {
+    color: #52C0D4;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}
+.form-switcher:not(.active):hover {
+    color: inherit;
+}
+#form-register {
+    display: none;
+}
+table {
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+td {
+    padding: 8px;
+}
+td:first-child {
+    font-weight: 700;
+}
+.profile-img {
+    max-width: 30%;
+}
